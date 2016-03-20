@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	margin:0 auto;
+  	color: #776e65;
+  	font-family:"Times";
+  	font-size:16px;
+  	height：600px;
+  	padding:20px;
+  	margin-top:20px;
+  	border:1px solid #999;
+  	overflow:hidden;
+  	width:90%;
+}
+.container img{
+	width:80px;
+	height:80px;
+}
+.container a{
+	text-decoration:none;
+	color: #776e65;
+}
+.container a:hover{
+	cursor:pointer;
+}
+.col_1{
+	float:left;
+	width:200px;
+	border: 1px solid #999;
+}
+.col_3{
+	float:right;
+	width:120px;
+	border: 1px solid #999;
+}
+.col_2{
+	overflow:hidden;
+	border: 1px solid #999;
+	margin-left:220px;
+	margin-right:140px;
+}
+.logo{
+	float:left;
+}
+.fixed{
+	margin-left:100px;
+}
